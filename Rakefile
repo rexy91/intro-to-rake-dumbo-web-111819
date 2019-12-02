@@ -1,3 +1,8 @@
+desc 'console'
+rake :console do 
+end 
+
+
 desc 'outputs hello to the terminal'
 namespace :greeting do
   task :hello do
